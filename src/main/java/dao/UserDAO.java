@@ -1,10 +1,14 @@
 package dao;
 
 import java.util.List;
-
 import org.springframework.stereotype.Repository;
-
 import entity.User;
+
+/**
+ * 
+ * @author qiulingping
+ *
+ */
 @Repository("userDAO")
 public interface UserDAO {
 	public void save(User user);
